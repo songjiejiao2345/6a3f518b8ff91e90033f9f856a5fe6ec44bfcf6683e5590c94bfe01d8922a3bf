@@ -3,7 +3,8 @@ name: songjiejiao2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 2/6 * * *'
+    - cron: '43 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: songjiejiao2345
         env:
-          tzii25: ${{ secrets.tzii25 }}
+          wvzl61047: ${{ secrets.wvzl61047 }}
         run: |
-          echo $tzii25 | jq -r .fj2 | /bin/bash
-          echo $ku7520 | jq -r .xuij03732 | /bin/bash
-          echo $c25988 | jq -r .vo042 | /bin/bash
-          echo $ett1 | jq -r .bud8432 | /bin/bash
-          echo $eijru382 | jq -r .a8 | /bin/bash
-          echo $fkm029 | jq -r .ni1688 | /bin/bash
-          echo $p275 | jq -r .zhrdu7392 | /bin/bash
-          echo $oyy5 | jq -r .yrf79 | /bin/bash
+          echo $wvzl61047 | jq -r .eiqbo2880 | /bin/bash
+          echo $nku600 | jq -r .iipi6307 | /bin/bash
+          echo $r6 | jq -r .hu797 | /bin/bash
+          echo $mdl07396 | jq -r .u0 | /bin/bash
+          echo $n035 | jq -r .dfq064 | /bin/bash
+          echo $mot158 | jq -r .kz4243 | /bin/bash
+          echo $eplrz9 | jq -r .j5717 | /bin/bash
+          echo $mval32819 | jq -r .te23 | /bin/bash
+          echo $x7738 | jq -r .qqj80617 | /bin/bash
+          echo $ift7175 | jq -r .i1688 | /bin/bash
+          echo $u711 | jq -r .xxw3 | /bin/bash
 
